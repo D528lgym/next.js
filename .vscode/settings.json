@@ -118,5 +118,16 @@
     "${workspaceRoot}/.git-blame-ignore-revs"
   ],
   "astGrep.serverPath": "node_modules/@ast-grep/cli/ast-grep",
-  "rust-analyzer.imports.prefix": "crate"
+  "rust-analyzer.imports.prefix": "crate",
+  "workbench.editor.autoLockGroups": {
+    "default": true,
+    "workbench.editor.chatSession": true,
+    "workbench.editorinputs.searchEditorInput": true,
+    "repl": true,
+    "workbench.editors.gettingStartedInput": true,
+    "imagePreview.previewEditor": true
+  },
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.alwaysShowEditorActions": true
 }
